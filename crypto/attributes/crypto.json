@@ -426,20 +426,6 @@
       ]
     },
     {
-      "s": "BITTREX:BLITZBTC",
-      "f": [
-        "Blitzcash",
-        "BLITZ"
-      ]
-    },
-    {
-      "s": "BITTREX:BLITZUSD",
-      "f": [
-        "Blitzcash",
-        "BLITZ"
-      ]
-    },
-    {
       "s": "BITTREX:BLOCKBTC",
       "f": [
         "Blocknet",
