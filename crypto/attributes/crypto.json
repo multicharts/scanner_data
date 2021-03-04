@@ -2168,7 +2168,7 @@
       ]
     },
     {
-      "s": "BINANCE:COMPBTC",
+      "s": "BINACE:COMPBTC",
       "f": [
         "Compound",
         "COMP"
@@ -3877,6 +3877,20 @@
     },
     {
       "s": "BINANCE:FTTBTC",
+      "f": [
+        "FTX Token",
+        "FTT"
+      ]
+    },
+    {
+      "s": "BINANCE:FTTUSD",
+      "f": [
+        "FTX Token",
+        "FTT"
+      ]
+    },
+    {
+      "s": "BINACE:FTTBTC",
       "f": [
         "FTX Token",
         "FTT"
@@ -8521,6 +8535,20 @@
       "f": [
         "Storj",
         "STORJ"
+      ]
+    },
+    {
+      "s": "HITBTC:STORMBTC",
+      "f": [
+        "Storm",
+        "STORM"
+      ]
+    },
+    {
+      "s": "HITBTC:STORMUSD",
+      "f": [
+        "Storm",
+        "STORM"
       ]
     },
     {
