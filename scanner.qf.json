@@ -1,7 +1,7 @@
 [
   {
     "name": "pricescale",
-    "type": "number"
+    "type": "price"
   },
   {
     "name": "minmov",
