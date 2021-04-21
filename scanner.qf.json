@@ -1,7 +1,7 @@
 [
   {
     "name": "pricescale",
-    "type": "price"
+    "type": "number"
   },
   {
     "name": "minmov",
@@ -17,7 +17,7 @@
   },
   {
     "name": "sector",
-    "type": "number"
+    "type": "text"
   },
   {
     "name": "country",
