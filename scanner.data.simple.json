@@ -756,7 +756,8 @@
 			},
 			"plot_137": {
 				"title": "VWAP",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_14": {
 				"title": "RSI",
@@ -776,11 +777,13 @@
 			},
 			"plot_18": {
 				"title": "SMA5",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_19": {
 				"title": "SMA10",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_2": {
 				"title": "ADX+DI",
@@ -788,43 +791,53 @@
 			},
 			"plot_20": {
 				"title": "SMA20",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_21": {
 				"title": "SMA30",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_22": {
 				"title": "SMA50",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_23": {
 				"title": "SMA100",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_24": {
 				"title": "SMA200",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_25": {
 				"title": "EMA5",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_26": {
 				"title": "EMA10",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_27": {
 				"title": "EMA20",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_28": {
 				"title": "EMA30",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_29": {
 				"title": "EMA50",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_3": {
 				"title": "ADX-DI",
@@ -832,11 +845,13 @@
 			},
 			"plot_30": {
 				"title": "EMA100",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_31": {
 				"title": "EMA200",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_32": {
 				"title": "Stoch.K",
@@ -960,7 +975,8 @@
 			},
 			"plot_6": {
 				"title": "BB.basis",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_60": {
 				"title": "Pivot.M.Fibonacci.S2",
@@ -1004,7 +1020,8 @@
 			},
 			"plot_7": {
 				"title": "BB.upper",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_70": {
 				"title": "Pivot.M.Demark.Middle",
@@ -1048,7 +1065,8 @@
 			},
 			"plot_8": {
 				"title": "BB.lower",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_80": {
 				"title": "Aroon.Up",
@@ -1064,15 +1082,18 @@
 			},
 			"plot_83": {
 				"title": "KltChnl.upper",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_84": {
 				"title": "KltChnl.lower",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_85": {
 				"title": "P.SAR",
-				"isHidden": false
+				"isHidden": false,
+				"histogramBase": 1234.4321
 			},
 			"plot_86": {
 				"title": "MoneyFlow",
