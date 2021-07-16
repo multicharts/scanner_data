@@ -1,6 +1,8 @@
 //@version=4
 study(title="ScannerData", shorttitle="_SD_")
 
+// this value is used by Scanner to distinguish between price and non-price plots
+isPricePlot = 1234.4321
 
 // study(title="Average True Range", shorttitle="ATR", overlay=false)
 plot(rma(tr(true), 14), title="ATR")
@@ -37,9 +39,9 @@ basisBB = sma(srcBB, lengthBB)
 devBB = multBB * stdev(srcBB, lengthBB)
 upperBB = basisBB + devBB
 lowerBB = basisBB - devBB
-plot(basisBB, title="BB.basis")
-plot(upperBB, title="BB.upper")
-plot(lowerBB, title="BB.lower")
+plot(basisBB, title="BB.basis", histbase=isPricePlot)
+plot(upperBB, title="BB.upper", histbase=isPricePlot)
+plot(lowerBB, title="BB.lower", histbase=isPricePlot)
 
 
 // study(title="Moving Average Convergence/Divergence", shorttitle="MACD")
@@ -73,35 +75,35 @@ plot(rsi(close,7)[1], title="RSI7[1]")
 
 // study(title="Moving Average", shorttitle="MA", overlay=true)
 SMA5=sma(close, 5)
-plot(SMA5, title="SMA5")
+plot(SMA5, title="SMA5", histbase=isPricePlot)
 SMA10=sma(close, 10)
-plot(SMA10, title="SMA10")
+plot(SMA10, title="SMA10", histbase=isPricePlot)
 SMA20=sma(close, 20)
-plot(SMA20, title="SMA20")
+plot(SMA20, title="SMA20", histbase=isPricePlot)
 SMA30=sma(close, 30)
-plot(SMA30, title="SMA30")
+plot(SMA30, title="SMA30", histbase=isPricePlot)
 SMA50=sma(close, 50)
-plot(SMA50, title="SMA50")
+plot(SMA50, title="SMA50", histbase=isPricePlot)
 SMA100=sma(close, 100)
-plot(SMA100, title="SMA100")
+plot(SMA100, title="SMA100", histbase=isPricePlot)
 SMA200=sma(close, 200)
-plot(SMA200, title="SMA200")
+plot(SMA200, title="SMA200", histbase=isPricePlot)
 
 // study(title="Exponential Moving Average", shorttitle="EMA", overlay=true)
 EMA5=ema(close, 5)
-plot(EMA5, title="EMA5")
+plot(EMA5, title="EMA5", histbase=isPricePlot)
 EMA10=ema(close, 10)
-plot(EMA10, title="EMA10")
+plot(EMA10, title="EMA10", histbase=isPricePlot)
 EMA20=ema(close, 20)
-plot(EMA20, title="EMA20")
+plot(EMA20, title="EMA20", histbase=isPricePlot)
 EMA30=ema(close, 30)
-plot(EMA30, title="EMA30")
+plot(EMA30, title="EMA30", histbase=isPricePlot)
 EMA50=ema(close, 50)
-plot(EMA50, title="EMA50")
+plot(EMA50, title="EMA50", histbase=isPricePlot)
 EMA100=ema(close, 100)
-plot(EMA100, title="EMA100")
+plot(EMA100, title="EMA100", histbase=isPricePlot)
 EMA200=ema(close, 200)
-plot(EMA200, title="EMA200")
+plot(EMA200, title="EMA200", histbase=isPricePlot)
 
 
 // study(title="Stochastic", shorttitle="Stoch")
@@ -252,12 +254,12 @@ lengthKltChnl = 20
 multKltChnl = 1
 maKltChnl = ema(close, lengthKltChnl)
 rangemaKltChnl = rma(tr(true), lengthKltChnl)
-plot(maKltChnl + rangemaKltChnl * multKltChnl, title = "KltChnl.upper")
-plot(maKltChnl - rangemaKltChnl * multKltChnl, title = "KltChnl.lower")
+plot(maKltChnl + rangemaKltChnl * multKltChnl, title = "KltChnl.upper", histbase=isPricePlot)
+plot(maKltChnl - rangemaKltChnl * multKltChnl, title = "KltChnl.lower", histbase=isPricePlot)
 
 // study("My Parabolic SAR", overlay=true)
 PSAR=sar(0.02, 0.02, 0.2)
-plot(PSAR, title = "P.SAR")
+plot(PSAR, title = "P.SAR", histbase=isPricePlot)
 
 // study("My Money Flow")
 lenMF = 14
@@ -651,7 +653,7 @@ plot((C_BlackMarubozu[1] and C_WhiteMarubozu and high[1] < low) ? 1 : 0, title =
 plot((C_WhiteMarubozu[1] and C_BlackMarubozu and low[1] > high) ? 1 : 0, title = "Candle.Kicking.Bearish")
 
 // study(title="VWAP", shorttitle="VWAP", overlay=true)
-plot(vwap(hlc3), title="VWAP")
+plot(vwap(hlc3), title="VWAP", histbase=isPricePlot)
 
 //////////////////////////////////// study("relative volume v5") ///////////////////////////////////////////////////////
 
